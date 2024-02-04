@@ -1,3 +1,10 @@
 body {
     background-color: pink;
 }
+
+.ultimateQuestion {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.noButton:hover {}
