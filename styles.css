@@ -5,6 +5,10 @@ body {
 .ultimateQuestion {
     text-align: center;
     padding-top: 5%;
+    font-weight: bold;
+    font-size: larger;
 }
 
-.noButton:hover {}
+.questionGif {
+    border-radius: 10px;
+}
