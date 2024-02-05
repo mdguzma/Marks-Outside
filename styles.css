@@ -12,3 +12,26 @@ body {
 .questionGif {
     border-radius: 10px;
 }
+
+#yesButton {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 25px 50px;
+    display: inline-block;
+    position: relative;
+}
+
+#noButton {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 25px 50px;
+    display: inline-block;
+    position: relative;
+}
+
+#noButton:hover {
+    background-color: darkred;
+    cursor: none;
+}
