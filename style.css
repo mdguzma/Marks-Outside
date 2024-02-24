@@ -1,0 +1,9 @@
+#id {
+    background-color: grey;
+    border: 5px 5px black;
+}
+
+#menu {
+    text-decoration: none;
+    list-style-type: none;
+}
