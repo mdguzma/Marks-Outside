@@ -37,8 +37,11 @@ nav a {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
   text-align: center;
+  background-color: green;
+  height: 350px;
+  margin-left: 30px;
 }
 
 /* Centered text */
@@ -72,4 +75,12 @@ nav a {
   border-radius: 200px;
   width: 400px;
   height: 400px;
+}
+
+.column img {
+  display: block;
+  margin: auto;
+  padding: 0;
+  width: 318px;
+  height: 213px;
 }
