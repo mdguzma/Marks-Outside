@@ -4,50 +4,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
-  <script src="/script.js"></script>
+  <script src="script.js"></script>
   <title>Mark's Outside</title>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html">Portfolio</a></li>
-      <li><a href="index.html">About</a></li>
-      <li style="float: right"><a href="index.html">Contact</a></li>
-      <li style="float: right"><a href="index.html">Blog</a></li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top justify-content-end">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
     </ul>
   </nav>
-  <div class="container">
-    <img src="./images/homePage.jpeg" alt="Mark in Arizona" width="100%" height="800px" />
 
-    <h1 class="centered">Outdoors / Lifestyle / Memories</h1>
-  </div>
-  <h1 style="text-align: center">Portfolio</h1>
-  <div class="row">
-    <div class="column">
-      <img src="images/adventures.jpeg" alt="">
-      <h2>Adventure</h2>
-      <input class="btnNav" type="button" value="View">
-    </div>
-    <div class="column">
-      <img src="images/lifestyle.jpeg" alt="">
-      <h2>Lifestyle</h2>
-      <input class="btnNav" type="button" value="View">
-    </div>
-    <div class="column ">
-      <img src="images/memories.jpeg" alt="">
-      <h2>Memories</h2>
-      <input class="btnNav" type="button" value="View">
+  <div class="card text-bg-dark">
+    <img class="card-img headerImg" src="/images/homePage.jpeg" alt="...xs">
+    <div class="card-img-overlay">
+      <p class="card-text  headerText position-absolute top-50 start-50 translate-middle">Adventure / Lifestyle /
+        Memories</p>
     </div>
   </div>
   <br>
-  <div class="profile">
-    <img class="headshot" src="images/Headshot.jpeg" alt="">
-    <p class="headshot profileText">Hey there! I'm Mark</p>
-    <p class="headshot profileText"><b>Hiking</b> and <b>Camping</b> based <b>Content Creator</b></p>
+  <h1 style="text-align: center">Portfolio</h1>
+  <br>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <img class="img-thumbnail" src="images/adventures.jpeg" alt="">
+        <h2>Adventure</h2>
+        <button type="button" class="btn btn-primary">View</button>
+      </div>
+      <div class="col">
+        <img class="img-thumbnail" src="images/lifestyle.jpeg" alt="">
+        <h2>Lifestyle</h2>
+        <button type="button" class="btn btn-primary">View</button>
+      </div>
+      <div class="col">
+        <img class="img-thumbnail" src="images/memories.jpeg" alt="">
+        <h2>Memories</h2>
+        <button type="button" class="btn btn-primary">View</button>
+      </div>
+    </div>
   </div>
+
+  <br>
+  <div class="card mb-5 mx-auto p-2" style="max-width: 740px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="images/Headshot.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Hey there! I'm Mark</h5>
+          <p class="card-text bio"><b>Hiking</b> and <b>Camping</b> based <b class="bi bi-backpack2">Content
+              Creator</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
