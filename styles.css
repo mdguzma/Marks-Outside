@@ -61,9 +61,9 @@ nav a {
   clear: Both;
 }
 
-.btn-nav {
+.btnNav {
   padding: 10px;
-  background-color: green;
+  background-color: #483285;
   font-size: large;
   border-radius: 5px;
 }
