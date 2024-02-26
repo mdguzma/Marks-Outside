@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-color: skyblue;
 }
 
 .headerText {
@@ -9,6 +10,10 @@ body {
 
 .navbar {
   transition: top 0.5s;
+}
+
+.headerImg {
+  height: 100vh;
 }
 
 .column {
@@ -55,5 +60,11 @@ body {
 }
 
 .bio {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.img-thumbnail {
+  background-color: skyblue;
+  border: none;
+  border-radius: 10px;
 }
